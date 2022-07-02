@@ -1,0 +1,49 @@
+
+@import "./custom_colors";
+
+.center{
+    height: 100vh;
+    margin: auto auto ;
+    position: relative;
+}
+.container-login{
+    width: 75%;
+    background-color: $custom-purple;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-shadow: 4px 5px 22px #0000008e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container-login .img-login{
+    background-color: #ffffff;
+}
+.container-login .Form{
+    background-color: $custom-purple;
+
+}
+
+@media (max-width:804px) {
+    .container-login{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-login .img-login{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-login .img-login img{
+       height: 100%;
+       width: 100%;
+    }
+}
+@media (max-width:624px) {
+    .container-login{
+        width: 80%;
+    }
+}

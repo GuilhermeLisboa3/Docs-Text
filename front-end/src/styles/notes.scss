@@ -1,0 +1,34 @@
+@import "./custom_colors";
+
+
+.navbar-item{
+    margin-left: 5rem;
+}
+.notes{
+    height: calc(100% - 70px);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.bm-menu{
+    background-color: #ffffff;
+    padding-top: 10px;
+}
+.container-List{
+   width: 100%;
+}
+.notes-list:last-child{
+ padding-bottom: 5rem;
+}
+
+.notes-editor{
+    padding: 0;
+    height: calc(100% -43px);
+    .quill{
+        height: 100%;
+    }
+}
+
+.quill > .ql-toolbar:first-child {
+    display: none !important;
+}
