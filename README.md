@@ -27,19 +27,20 @@ Docs Text is a system created for a text editor, developed for study. with the o
 
 To run the tests, run the following command
 
-bash
+```bash
    1.Make a clone of this repository
+
    BACK-END
    1.Enter the folder by running cd back-end
    2.Run npm i to install dependencies
    3.Run nodemon start to start the server
-   4.Run mongod start to start the database
+   4.Run mongod to start the database
+
    FRONT-END
    1.Enter the folder by running cd back-end
    2.Run npm i to install dependencies
    3.Run npm start to start the server
-
-
+```
 <br/>
 <br/>
 
