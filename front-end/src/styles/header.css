@@ -1,0 +1,20 @@
+nav.navbar {
+  position: relative;
+  height: 70px;
+  border-bottom: 1px solid black;
+}
+
+.navbar-brand img {
+  position: absolute;
+  height: 150px;
+  top: -40px;
+}
+
+@media (max-width: 1023px) {
+  #navbar-menu {
+    margin-top: 1.1rem;
+  }
+}
+.navbar-logged .navbar-menu {
+  background-color: #694ED8;
+}/*# sourceMappingURL=header.css.map */
